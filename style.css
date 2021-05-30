@@ -35,7 +35,7 @@ nav li {
   list-style-type: none;
 }
 
-.banner-container {
+.mission-container {
   display: flex;  
   align-items: center;
 
@@ -48,7 +48,7 @@ nav li {
   margin: auto;
 }
 
-.banner-heading {
+.mission-heading {
   width: 100%;
   text-align: center;
   z-index: 1;
