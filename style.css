@@ -25,10 +25,31 @@ header {
 
 nav {
   display: flex;
+  top: 0px;
 
 }
 
 nav li {
   padding: 5px;
+  margin-right: 15px;
   list-style-type: none;
+}
+
+.banner-container {
+  display: flex;  
+  align-items: center;
+
+  position: relative;
+  background-image: url('img/Background.webp');
+  top: 69px;
+  height: 700px;
+  width: 1200px;
+
+  margin: auto;
+}
+
+.banner-heading {
+  width: 100%;
+  text-align: center;
+  z-index: 1;
 }
