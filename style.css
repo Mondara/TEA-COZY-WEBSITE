@@ -1,0 +1,34 @@
+* {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+#logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+
+  position: fixed;
+}
+
+nav {
+  display: flex;
+
+}
+
+nav li {
+  padding: 5px;
+  list-style-type: none;
+}
