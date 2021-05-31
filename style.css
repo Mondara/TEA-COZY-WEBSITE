@@ -4,8 +4,14 @@
   color: seashell;
   background-color: black;
   opacity: 0.9;
+
+  margin: 0;
+  padding: 0;
 }
 
+h2, h3, h4 {
+  padding: 10px;
+}
 #logo img {
   height: 50px;
   margin-left: 10px;
@@ -21,6 +27,7 @@ header {
   border-bottom: 1px solid seashell;
 
   position: fixed;
+  z-index: 1;
 }
 
 nav {
@@ -52,4 +59,51 @@ nav li {
   width: 100%;
   text-align: center;
   z-index: 1;
+}
+
+.featured-tea-heading{
+  display: block;
+  align-items: center;
+  text-align: center;
+  
+  margin: 100px auto 10px;
+  width: 1000px;
+}
+
+.featured-tea-img-container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+
+
+  width: 1000px;
+  margin: auto;
+  overflow: hidden;
+
+  
+}
+figure {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 50px; 
+  
+}
+.featured-tea-img-row-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  
+}
+
+figure img{
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.featured-tea-img-container figcaption {
+  margin-bottom: 100px;
+  text-align: center;
+  
 }
