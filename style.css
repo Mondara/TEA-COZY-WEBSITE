@@ -14,6 +14,8 @@ h2, h3, h4, h5 {
   padding: 10px;
 }
 
+/* Nav Bar */
+
 #logo img {
   height: 50px;
   margin-left: 10px;
@@ -48,7 +50,7 @@ nav a {
   color: seashell;
 }
 
-
+/* Mission */
 .mission-container {
   display: flex;  
   align-items: center;
@@ -71,6 +73,7 @@ nav a {
 }
 
 
+/* Featured Tea */
 
 .featured-tea-container{
   display: flex;
@@ -81,7 +84,6 @@ nav a {
 }
 
 .featured-tea-img-container {
-
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -102,54 +104,38 @@ nav a {
   flex-wrap: wrap;
 }
 
-
-
-
 figure img{
   width: 100%;
   padding-bottom: 10px;
 }
 
-.featured-tea-img-container figcaption {
-  margin-bottom: 100px;  
-}
 
+/* Locations */
 
+.locations-container {
 
-.flex-container.locations {
-  padding-top: 5px;
-}
-
-.flex-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-#locations {
   background-image: url("img/Locations.webp");
   background-repeat: no-repeat;
   background-position: center;
 
-  height: 500px;
+  min-height: 500px;
   padding-top: 70px;
 }
 
-#locations .flex-container {
-  margin: auto;
-  width: 1100px;
+.locations-column-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
-
 .location {
   opacity: 1.0;
   padding: 10px;
   margin: 5px 20px;
   background-color: black;
-  flex-basis: 280px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  min-width: 300px;
 }
+
+/* Footer */
 
 footer {
   text-align: left;
